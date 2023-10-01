@@ -634,7 +634,10 @@
                         <div class="subscriber-field">
 
                             <label class="enter-email">
-                                <input class="email-field" type="email" id="email" name="email" placeholder="E-mail">
+
+                                <input class="email-field" type="email" id="email" name="email" placeholder="E-mail"
+                                    required>
+
                             </label>
 
                         </div>
@@ -687,44 +690,80 @@
 
                 <form class="modal-form">
 
-                    <label class="modal-form-labels">
+                    <label class="modal-form-fields">
 
-                        <span>Name</span>
+                        <span class="modal-form-field-labels">Name</span>
 
-                        <input class="modal-form-fields" placeholder="Full Name" type="text" name="full_name">
+                        <input class="modal-form-input-fields" placeholder="Full Name" type="text" name="full_name"
+                            required>
 
-                    </label>
 
-                    <label class="modal-form-labels">
+                        <div class="modal-form-icon-placement">
 
-                        <span>Phone</span>
+                            <svg class="modal-form-icon">
+                                <use href="./images/icons.svg#name_icon">
+                            </svg>
 
-                        <input class="modal-form-fields" placeholder="(###)###-####" type="tel" name="tel_number">
-
-                    </label>
-
-                    <label class="modal-form-labels">
-
-                        <span>Email</span>
-
-                        <input class="modal-form-fields" placeholder="example@your.email" type="email"
-                            name="email_address">
+                        </div>
 
                     </label>
 
-                    <label class="modal-form-comment">
+                    <label class="modal-form-fields">
 
-                        <span>Comment</span>
+                        <span class="modal-form-field-labels">Phone</span>
 
-                        <textarea class="modal-comment-field" placeholder="Text input" type="text"
-                            name="comment_section" rows="8">
-                                </textarea>
+                        <input class="modal-form-input-fields" placeholder="(###)###-####" type="tel" name="tel_number"
+                            required>
+
+                        <div class="modal-form-icon-placement">
+
+                            <svg class="modal-form-icon">
+                                <use href="./images/icons.svg#telephone_icon">
+                            </svg>
+
+                        </div>
+
+                    </label>
+
+                    <label class="modal-form-fields">
+
+                        <span class="modal-form-field-labels">Email</span>
+
+                        <input class="modal-form-input-fields" placeholder="example@your.email" type="email"
+                            name="email_address" required>
+
+                        <div class="modal-form-icon-placement">
+
+                            <svg class="modal-form-icon">
+                                <use href="./images/icons.svg#email_icon">
+                            </svg>
+
+                        </div>
+
+                    </label>
+
+                    <label class="modal-form-fields">
+
+                        <span class="modal-form-field-labels">Comment</span>
+
+                        <textarea class="modal-form-input-fields" placeholder="Text input" type="text"
+                            name="comment_section" rows="8" required>
+                        </textarea>
 
                     </label>
 
                     <label class="agreement">
 
-                        <input class="agreement-box" type="checkbox" name="agreement_section">
+                        <input class="agreement-box" type="checkbox" checked="checked" name="agreement_section"
+                            required>
+
+                        <span class="ticked-checkbox">
+
+                            <svg class="checkbox-icon">
+                                <use href="./images/icons.svg#ticked_checkbox">
+                            </svg>
+
+                        </span>
 
                         <span class="privacy-policy-section">
 
@@ -734,16 +773,19 @@
 
                         </span>
 
-
                     </label>
 
-                    <label class="submit-form">
+                    <div class="send-button-area">
 
-                        <button class="send-button" type="submit">
-                            Send
-                        </button>
+                        <label class="submit-form">
 
-                    </label>
+                            <button class="send-button" type="submit">
+                                Send
+                            </button>
+
+                        </label>
+
+                    </div>
 
                 </form>
             </div>

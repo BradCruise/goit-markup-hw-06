@@ -573,7 +573,7 @@ a.address-link:hover {
     cursor: pointer;
 
     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
-            color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -660,8 +660,8 @@ a.address-link:hover {
     cursor: pointer;
 
     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
-            border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-            color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -672,8 +672,8 @@ a.address-link:hover {
     border-color: var(--ocean);
     background: var(--ocean);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-            0px 2px 1px 0px rgba(0, 0, 0, 0.08),
-            0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+        0px 2px 1px 0px rgba(0, 0, 0, 0.08),
+        0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 
 }
 
@@ -698,7 +698,7 @@ a.address-link:hover {
     background: var(--WHITE, #FFF);
 
     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
-            border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -808,7 +808,7 @@ a.address-link:hover {
     height: 88px;
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-            border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -882,7 +882,7 @@ a.address-link:hover {
     color: var(--navy-blue);
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -955,7 +955,7 @@ a.address-link:hover {
     top: 38%;
 
     fill: currentColor;
-    
+
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1013,12 +1013,12 @@ a.address-link:hover {
 
 }
 
-.modal-form-input-fields:hover + .modal-form-icon-placement > .modal-form-icon {
+.modal-form-input-fields:hover+.modal-form-icon-placement>.modal-form-icon {
 
     color: var(--iris);
 }
 
-.modal-form-input-fields:focus + .modal-form-icon-placement > .modal-form-icon {
+.modal-form-input-fields:focus+.modal-form-icon-placement>.modal-form-icon {
 
     color: var(--iris);
 }
@@ -1072,7 +1072,7 @@ a.address-link:hover {
     fill: var(--white);
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -1094,7 +1094,7 @@ a.address-link:hover {
 
 }
 
-.agreement input:checked ~.ticked-checkbox {
+.agreement input:checked~.ticked-checkbox {
 
     fill: var(--cloud);
     background-color: var(--iris);
@@ -1102,7 +1102,7 @@ a.address-link:hover {
     border-radius: 20%;
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .privacy-policy-section {
